@@ -1,0 +1,15 @@
+#!/user/bin/env python3.23
+infile = open('poem.txt')
+lines = infile.read().split('\n')
+linecount = len(lines)
+
+word_count = 0
+char_count = 0
+
+for line in lines:
+    word = line.split()
+    word_count +=len(word)
+
+    char_count += len(line)
+
+print ('file has {0} lines, {1} words, {2} characaters'.format(linecount,word_count,char_count))

@@ -1,0 +1,10 @@
+"""
+Write a method to replace all the whilespace with %20 in a string, the string has enough buffer at the
+end of the string
+
+algorithm:
+1. scane the string to count the whitespace, to caculate the new length of the string
+2. scane from the end of the string, if we  get the whitespace replace it with %20 else copy the original
+char
+
+"""

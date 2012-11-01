@@ -1,0 +1,25 @@
+Hi janelle how are you?
+
+Its really nice to hear from you, Thanks very much for giving me this opportunity
+
+My name is Qi Tang,  a gradudate student from university at buffalo. and my major is Electrical Engineering
+
+
+I have great passion in python programming and learn to developer django applications. 
+
+I have an internship experience at eurosocap, which is a bussiness company. My responsibility is 
+maintaining their website, like updating new product information, fixing the bugs of web pages and 
+adding some new features to their website. something like that. 
+
+you know, what i am expected the most is the working experience, so I am really interested in the
+position of back end developer of Crowdjewel
+
+1.Can you tell me about the future of your company? I mean Crowdjewel is a startup company right? 
+what makes you have confidence to this company 
+
+2.  why are you currently recruting this positon?
+
+3. Do you have any experienced backend developers in your team, excepted the CTO?
+
+4, What techniques or languages that were utilized in your website? I mean php, python 
+or mysql, somepyt
