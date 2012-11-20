@@ -23,3 +23,11 @@ def printsubsets(string):
     result = [''.join(item) for item in getsubsets(string)]
 
     return result
+
+def main():
+	string = 'abc'
+	print getsubsets(string)
+	print printsubsets(string)
+
+if __name__=="__main__":
+	main()
