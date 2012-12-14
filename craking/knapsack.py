@@ -51,16 +51,20 @@ for i in range(n,-1,-1):
 """
 
 from pprint import pprint 
+
 def knapsack(data, k):
 	if k < 0:
 		return None
+
+	#initial the table profit	
 	n = len(data)
 
 	kp = [0]*(k+1)
-
 	profit = [0]*(n+1)
+	#d is the track
 	d = [0]*(n+1)
 
+	#create the table
 	for i in range(n+1):
 		profit[i] = kp[:]
 		d[i] = kp[:]

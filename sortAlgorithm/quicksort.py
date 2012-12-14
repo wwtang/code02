@@ -41,5 +41,5 @@ def main():
     print "***"
     test(quicksort([1,3,6,2],[1,2,3,6])
 
-if __name__ == "__main__":
+if __name__=="__main__":
     main()

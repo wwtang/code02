@@ -36,20 +36,25 @@ def isParlindrom2(n):
 
 	if n < 10:
 		return True
+		
 	div = 1
 	# find the highest digit 
 	while n/div > 10:
 		div *= 10
 		
-	print div 
+	#compare the highest and lowest digits 
 	while n != 0:
-		l = n/div
 
+		l = n/div
 		r = n%10
+
 		if l!=r:
 			return False
+		#shrink n and div, remove the highest and lowest digits 
+		 	
 		n = (n%div)/10
 		div /=100
+
 	return True
 
 def stringIsParlindrom(str):
